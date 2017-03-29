@@ -1,6 +1,6 @@
 function first(array){
 	// i do something
-	for(var i of array){
+	for(var i of array[1..5,1..6]){
 		console.log(i);
 	}
 	return 5;
